@@ -104,7 +104,7 @@
         if (collaboratorCount === 1) {
             text = "나와 +1의 사용자가 있습니다.";
         } else if (collaboratorCount > 1) {
-            text = '나와 + ${collaboratorCount}의 사용자가 있습니다.';
+            text = `나와 + ${collaboratorCount}의 사용자가 있습니다.`;
         }
         document.getElementById("collaborator_count").innerText = text
     }
